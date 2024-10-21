@@ -1,1 +1,1 @@
-puffy-friend.surge.sh
+perfect-friend.surge.sh
