@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.sobre-mim {
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+#projetos {
+    text-align: center;
+}
+.galeria a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+
+}
+.galeria a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.Minha-loja {
+    text-align: center;
+}
+
+.Minha-loja img {
+    width: 80%;
+    padding: 2px;
+}
+
+.Minha-loja a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    
+}
+.Minha-loja a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.Meu-jogo {
+    text-align: center;
+}
+.Meu-jogo img {
+    width: 60%;
+    padding: 5px;
+}
+.Meu-jogo a{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+.Meu-jogo a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}   
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#Formulário {
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+label {
+    margin: 5px 0;
+}
+
+input {
+    margin: 10px 0;
+}
+
+#habilidade{
+    text-align: center
+}

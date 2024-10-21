@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de Vendas</title>
+    <link rel="stylesheet" type="text/css" href="loja.css">
+</head>
+<header>
+    <h2>Página de Venda</h2>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+        <li><a href="add-produto.html">Adicionar Produto</a></li>
+        <li><a href="funcionarios.html">Funcionários</a></li>
+        <li><a href="pg-venda.html">Página de Vendas</a></li>
+        </ul>
+</nav>
+
+<form action="#" method="post">
+    <div class="product">
+        <h3>Produtos Selecionados:</h3>
+        <div>
+            <label for="produto1">Produto 1:</label>
+            <input type="text" id="produto1" name="produto1" placeholder="Nome do produto" required>
+            <input type="number" name="quantidade1" placeholder="Quantidade" min="1" required>
+            <input type="text" name="preço1" placeholder="Preço" required>
+        </div>
+
+        <div>
+            <label for="produto2">Produto 2:</label>
+            <input type="text" id="produto2" name="produto2" placeholder="Nome do produto">
+            <input type="number" name="quantidade2" placeholder="Quantidade" min="1">
+            <input type="text" name="preço2" placeholder="Preço">
+        </div>
+
+        <div>
+            <label for="produto3">Produto 3:</label>
+            <input type="text" id="produto3" name="produto3" placeholder="Nome do produto">
+            <input type="number" name="quantidade3" placeholder="Quantidade" min="1">
+            <input type="text" name="preço3" placeholder="Preço">
+        </div>
+    </div>
+
+    <div>
+        <h3>Opções de Pagamento:</h3>
+        <label>
+            <input type="radio" name="payment" value="dinheiro" required> Dinheiro
+        </label>
+        <label>
+            <input type="radio" name="payment" value="cartao"> Cartão
+        </label>
+    </div>
+
+    <div>
+        <button type="submit">Finalizar Compra</button>
+    </div>
+</form>
+</body>
+</html>
